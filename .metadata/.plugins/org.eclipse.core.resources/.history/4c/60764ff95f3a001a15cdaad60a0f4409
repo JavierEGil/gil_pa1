@@ -1,0 +1,15 @@
+package gil_p1;
+
+public class Application {
+	public static void main(String[] args) {
+		int age = 13;
+		double weight = 123.345678;
+		
+		System.out.printf("Hello Everyone!%n" +
+		"I am %d years old!%n" + 
+				"I weigh %.2f", 
+				age, 
+				weight);
+		
+	}
+}
